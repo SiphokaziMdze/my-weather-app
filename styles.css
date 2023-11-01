@@ -1,0 +1,119 @@
+body {
+    padding: 20px;
+    background-color: grey;
+    background-image: url('https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-7709.jpg?w=740&t=st=1698448361~exp=1698448961~hmac=89a3f9eec3b4bb789e4aa8a8f9ecfd0f125896a288bca6a83a5156fff19c3b2a');
+    
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search {
+    margin: 20px 0;
+    display: block;
+    color: black;
+   
+}
+
+.search input {
+    padding: 5px;
+    margin: 20px auto;
+    border: 1px black;
+    background: plum;
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 24px;
+    border-radius: 30px;
+    transition: all 200ms ease;
+    box-shadow: rgba(117, 38, 117, 0.08) 0px 8px 8px 0;
+    cursor: pointer;
+   
+}
+.search input:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.weather-info {
+    margin-top: 30px;
+}
+
+h2 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+h5{
+    margin: 10px 0;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: initial;
+    color: black;
+}
+
+h3{
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.forecast-info {
+    flex-basis: 19%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.emoji {
+    font-size: 24px;
+}
+button {
+    border: 1px black;
+    background: grey;
+    color: white;
+    font-size: 15px;
+    line-height: 1px;
+    padding: 16px 24px;
+    border-radius: 30px;
+    transition: all 200ms ease;
+    box-shadow: rgba(117, 38, 117, 0.08) 0px 8px 8px 0;
+    cursor: pointer;
+    margin-left: 140px;
+    margin-bottom: 5px;
+    text-align: center;
+  
+}
+button:hover {
+background: white;
+color: black;
+border: 1px solid black; }
+
+.input{
+    color: black;
+}
+
+ul {
+ list-style-type: none;
+ display: inline-block; 
+ font-size: large;
+ text-align: center;
+ margin-top: auto;
+ margin-left: 110px;
+}
+
+form{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
